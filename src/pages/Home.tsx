@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface HomeProps {
-  isDarkMode: boolean; // Adicionando a interface para props
+  isDarkMode: boolean;
 }
 
 const Home: React.FC<HomeProps> = ({ isDarkMode }) => {
@@ -16,9 +16,9 @@ const Home: React.FC<HomeProps> = ({ isDarkMode }) => {
         <a href="https://github.com/joaopedroplinta" className={`text-xl ${isDarkMode ? 'text-purple-700' : 'text-purple-700'}`}>GitHub</a>
       </div>
 
-      {/* <div className="flex justify-start mb-4">
-        <img src="../../public/joaopedroplinta.jpg" alt="João Pedro Plinta" className="w-80 h-90" />
-      </div> */}
+      <div className="flex justify-center mt-8 mb-4">
+        <img src="../../public/joaopedroplinta.jpg" alt="João Pedro Plinta" className="rounded-full w-48 h-48 object-cover shadow-lg"/>
+      </div>
     </main>
   );
 };
