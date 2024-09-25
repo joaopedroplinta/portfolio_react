@@ -7,7 +7,7 @@ interface ContactProps {
 const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
   return (
     <main className="text-center">
-      <h1 className={`text-4xl font-semibold ${isDarkMode ? 'text-white' : 'text-blue-900'} mb-6`}>Contato</h1>
+      <h1 className={`text-4xl font-semibold ${isDarkMode ? 'text-purple-800' : 'text-purple-800'} mb-6`}>Contato</h1>
       <p className={`text-lg ${isDarkMode ? 'text-gray-300' : 'text-gray-700'} mb-4`}>
         Entre em contato através das redes sociais ou clique aqui para mandar um e-mail.
       </p>
@@ -27,7 +27,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
 
       <div id="email-container" className="flex justify-center items-center">
         <ion-icon name="mail-outline" style={{ fontSize: '36px' }}></ion-icon>
-        <a href="mailto:joaopedrohenriqueplinta@gmail.com" className={`ml-2 ${isDarkMode ? 'text-gray-300' : 'text-blue-700'}`}>
+        <a href="mailto:joaopedrohenriqueplinta@gmail.com" className={`ml-2 ${isDarkMode ? 'text-purple-700' : 'text-purple-700'}`}>
           Clique aqui para me mandar um e-mail
         </a>
       </div>
