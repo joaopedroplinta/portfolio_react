@@ -22,56 +22,56 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
         <div>
           <h2 className={`text-xl font-semibold mb-4 ${isDarkMode ? 'text-purple-800' : 'text-purple-800'}`}>Front-end</h2>
           <div className="flex gap-2">
-            <i className="devicon-html5-plain colored text-5xl" alt="HTML"></i>
-            <i className="devicon-css3-plain colored text-5xl" alt="CSS"></i>
-            <i className="devicon-javascript-plain colored text-5xl" alt="JavaScript"></i>
-            <i className="devicon-typescript-plain colored text-5xl" alt="TypeScript"></i>
+            <i className="devicon-html5-plain colored text-5xl"></i>
+            <i className="devicon-css3-plain colored text-5xl"></i>
+            <i className="devicon-javascript-plain colored text-5xl"></i>
+            <i className="devicon-typescript-plain colored text-5xl"></i>
           </div>
         </div>
 
         <div>
           <h2 className={`text-xl font-semibold mb-4 ${isDarkMode ? 'text-purple-800' : 'text-purple-800'}`}>Front-end Frameworks</h2>
           <div className="flex gap-2">
-            <i className="devicon-react-original colored text-5xl" alt="React"></i>
-            <i className="devicon-jquery-plain-wordmark colored text-5xl" alt="jQuery"></i>
+            <i className="devicon-react-original colored text-5xl"></i>
+            <i className="devicon-jquery-plain-wordmark colored text-5xl"></i>
           </div>
         </div>
 
         <div>
           <h2 className={`text-xl font-semibold mb-4 ${isDarkMode ? 'text-purple-800' : 'text-purple-800'}`}>Languages</h2>
           <div className="flex gap-2">
-            <i className="devicon-cplusplus-plain colored text-5xl" alt="C++"></i>
-            <i className="devicon-java-plain colored text-5xl" alt="Java"></i>
-            <i className="devicon-python-plain colored text-5xl" alt="Python"></i>
+            <i className="devicon-cplusplus-plain colored text-5xl"></i>
+            <i className="devicon-java-plain colored text-5xl"></i>
+            <i className="devicon-python-plain colored text-5xl"></i>
           </div>
         </div>
 
         <div>
           <h2 className={`text-xl font-semibold mb-4 ${isDarkMode ? 'text-purple-800' : 'text-purple-800'}`}>Back-end</h2>
           <div className="flex gap-2">
-            <i className="devicon-nodejs-plain colored text-5xl" alt="Node.js"></i>
-            <i className="devicon-python-plain colored text-5xl" alt="Python"></i>
-            <i className="devicon-php-plain colored text-5xl" alt="PHP"></i>
+            <i className="devicon-nodejs-plain colored text-5xl"></i>
+            <i className="devicon-python-plain colored text-5xl"></i>
+            <i className="devicon-php-plain colored text-5xl"></i>
           </div>
         </div>
 
         <div>
           <h2 className={`text-xl font-semibold mb-4 ${isDarkMode ? 'text-purple-800' : 'text-purple-800'}`}>Databases</h2>
           <div className="flex gap-2">
-            <i className="devicon-postgresql-plain-wordmark colored text-5xl" alt="PostgreSQL"></i>
-            <i className="devicon-mysql-plain-wordmark colored text-5xl" alt="MySQL"></i>
-            <i className="devicon-microsoftsqlserver-plain-wordmark text-5xl" alt="SQL Server"></i>
+            <i className="devicon-postgresql-plain-wordmark colored text-5xl"></i>
+            <i className="devicon-mysql-plain-wordmark colored text-5xl"></i>
+            <i className="devicon-microsoftsqlserver-plain-wordmark text-5xl"></i>
           </div>
         </div>
 
         <div>
           <h2 className={`text-xl font-semibold mb-4 ${isDarkMode ? 'text-purple-800' : 'text-purple-800'}`}>Tools</h2>
           <div className="flex gap-2">
-            <i className="devicon-vscode-plain colored text-5xl" alt="VSCode"></i>
-            <i className="devicon-git-plain colored text-5xl" alt="Git"></i>
-            <i className="devicon-github-plain  text-5xl" alt="GitHub"></i>
-            <i className="devicon-docker-plain colored text-5xl" alt="Docker"></i>
-            <i className="devicon-linux-plain text-5xl" alt="Linux"></i>
+            <i className="devicon-vscode-plain colored text-5xl"></i>
+            <i className="devicon-git-plain colored text-5xl"></i>
+            <i className="devicon-github-plain  text-5xl"></i>
+            <i className="devicon-docker-plain colored text-5xl"></i>
+            <i className="devicon-linux-plain text-5xl"></i>
           </div>
         </div>
       </section>
