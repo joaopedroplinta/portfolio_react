@@ -17,7 +17,7 @@ const Home: React.FC<HomeProps> = ({ isDarkMode }) => {
       </div>
 
       <div className="flex justify-center mt-8 mb-4">
-        <img src="../../public/joaopedroplinta.jpg" alt="João Pedro Plinta" className="rounded-full w-48 h-48 object-cover shadow-lg"/>
+        <img src="/joaopedroplinta.jpg" alt="João Pedro Plinta" className="rounded-full w-48 h-48 object-cover shadow-lg"/>
       </div>
     </main>
   );
