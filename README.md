@@ -22,7 +22,8 @@ Este repositório contém o código-fonte do meu portfólio pessoal desenvolvido
    git clone https://github.com/joaopedroplinta/portfolio_react.git
    ```
 
-2. ```bash
+2. Acesse o diretório do projeto:
+ ```bash
    cd portfolio_react
    ```
 
