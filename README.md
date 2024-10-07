@@ -23,7 +23,7 @@ Este repositório contém o código-fonte do meu portfólio pessoal desenvolvido
    ```
 
 2. Acesse o diretório do projeto:
- ```bash
+   ```bash
    cd portfolio_react
    ```
 
