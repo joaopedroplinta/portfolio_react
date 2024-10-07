@@ -21,11 +21,16 @@ Este repositório contém o código-fonte do meu portfólio pessoal desenvolvido
    ```bash
    git clone https://github.com/joaopedroplinta/portfolio_react.git
    ```
-2. Instale as dependências:
+
+2. ```bash
+   cd portfolio_react
+   ```
+
+3. Instale as dependências:
    ```bash
    npm install
    ```
-3. Execute o projeto:
+4. Execute o projeto:
    ```bash
    npm run dev
    ```
