@@ -9,7 +9,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
     <main className="text-center">
       <h1 className={`text-4xl font-semibold ${isDarkMode ? 'text-purple-800' : 'text-purple-800'} mb-6`}>Sobre Mim</h1>
       <p className={`text-lg ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-        Tenho 19 anos, sou apaixonado pela tecnologia e atualmente sou Estagiário na Polícia Científica. Trabalho duro todos os dias para aprender a melhorar e escrever código de qualidade.
+        Tenho 19 anos e sou apaixonado por tecnologia. Atualmente, sou estagiário na Polícia Científica do Paraná. Antes disso, atuei como estagiário nas áreas de Financeiro, Administrativo e Marketing em uma empresa de cursos pré-vestibular. Após essa experiência, trabalhei como jovem aprendiz no setor de produção de uma metalúrgica. Trabalho duro todos os dias para aprimorar minhas habilidades e escrever código de qualidade.
       </p>
       <br />
       <p className={`text-lg ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
