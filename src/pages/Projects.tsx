@@ -46,6 +46,11 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
       description: "Recriação do jogo da velha no terminal. Você tem a opção de jogar no tabuleiro 3x3, 5x5, 7x7 e 9x9. O jogo tambem conta com a opção de ser jogado em dupla ou contra a maquina",
       link: "https://github.com/joaopedroplinta/tic-tac-toe-python"
     },
+    {
+      title: "Conversor de Moedas",
+      description: "É um conversor de moedas simples que permite aos usuários converter valores entre diferentes moedas usando uma interface gráfica amigável. Ele faz uso da API ExchangeRate-API para obter as taxas de câmbio mais recentes. O objetivo do projeto é fornecer uma ferramenta rápida e fácil de usar para quem precisa converter valores monetários entre diferentes moedas.",
+      link: "https://github.com/joaopedroplinta/cambio_moeda"
+    }
   ];
 
   return (
