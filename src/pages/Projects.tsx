@@ -26,6 +26,26 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
       description: "Este programa em C++ aloca registros na memória e mede o tempo de execução, uso de recursos e endereços de memória. O programa foi desenvolvido para investigar o comportamento da alocação de registros e seus impactos em termos de tempo de execução, uso de memória e desempenho da CPU.",
       link: "https://github.com/joaopedroplinta/nlw-expert-notes",
     },
+    {
+      title: "Algoritmo de Eleição Distribuída",
+      description: "Este projeto implementa um algoritmo de eleição distribuída em C++. O objetivo é simular um sistema distribuído onde processos elegem um coordenador e monitoram sua atividade.",
+      link: "https://github.com/joaopedroplinta/algoritimo_eleicao"
+    },
+    {
+      title: "To-Do List",
+      description: "Aplicação de uma lista de tarefas.",
+      link: "https://github.com/joaopedroplinta/my-todo-app"
+    },
+    {
+      title: "Pokémon API",
+      description: "Este projeto é uma aplicação web que utiliza a Pokémon API para exibir todos os Pokémon da 1ª até a 3ª geração (1-386). A aplicação é construída com React, TypeScript e TailwindCSS.",
+      link: "https://github.com/joaopedroplinta/pokemon-api"
+    },
+    {
+      title: "Jogo da Velha",
+      description: "Recriação do jogo da velha no terminal. Você tem a opção de jogar no tabuleiro 3x3, 5x5, 7x7 e 9x9. O jogo tambem conta com a opção de ser jogado em dupla ou contra a maquina",
+      link: "https://github.com/joaopedroplinta/tic-tac-toe-python"
+    },
   ];
 
   return (
