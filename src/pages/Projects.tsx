@@ -24,7 +24,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
     {
       title: "Alocação de Memória em C++",
       description: "Este programa em C++ aloca registros na memória e mede o tempo de execução, uso de recursos e endereços de memória. O programa foi desenvolvido para investigar o comportamento da alocação de registros e seus impactos em termos de tempo de execução, uso de memória e desempenho da CPU.",
-      link: "https://github.com/joaopedroplinta/nlw-expert-notes",
+      link: "https://github.com/joaopedroplinta/memory_allocation",
     },
     {
       title: "Algoritmo de Eleição Distribuída",
