@@ -1,3 +1,4 @@
+import { title } from 'framer-motion/client';
 import React from 'react';
 
 interface ProjectsProps {
@@ -50,6 +51,11 @@ const Projects: React.FC<ProjectsProps> = ({ isDarkMode }) => {
       title: "Conversor de Moedas",
       description: "É um conversor de moedas simples que permite aos usuários converter valores entre diferentes moedas usando uma interface gráfica amigável. Ele faz uso da API ExchangeRate-API para obter as taxas de câmbio mais recentes. O objetivo do projeto é fornecer uma ferramenta rápida e fácil de usar para quem precisa converter valores monetários entre diferentes moedas.",
       link: "https://github.com/joaopedroplinta/cambio_moeda"
+    },
+    {
+      title: "API Árvore Binária",
+      description: "Esta API fornece funcionalidades para manipulação de árvores binárias, incluindo inserção, remoção, busca e travessia de nós.",
+      link: "https://github.com/joaopedroplinta/api-arvore_binaria"
     }
   ];
 
