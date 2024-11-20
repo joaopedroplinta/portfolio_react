@@ -1,4 +1,3 @@
-import { title } from 'framer-motion/client';
 import React from 'react';
 
 interface ProjectsProps {
